@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.root{
+--Very-dark-blue1: hsl(217, 54%, 11%);
+--Very-dark-blue2: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+
+}
+.real{
+    position: absolute;
+    width:600px;
+    height: 1000px;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 20px;
+    place-content: center;
+    justify-content: center;
+    text-align: left;
+    font-size: larger;
+    z-index: 3;
+}
+.lyon{
+    position: absolute;
+    width:670px;
+    height: 1070px;
+    background-color:hsl(213, 50%, 9%);
+    border-radius: 100px;
+    bottom: 140px;
+    
+}
+.school{
+    width: 88%;
+    height:53%;
+    position: relative;
+    bottom: -32px;
+    position: relative;
+    right: -35px;
+    border-radius: 20px;
+    
+}
+.gold{
+    position: relative;
+    bottom: -70px;
+    right: -37px;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;    
+}
+.diamond{
+position: relative;
+bottom: -100px; 
+right: -37px;
+font-size: 30px;
+color: white;
+opacity: 30%;
+}
+.dimz{
+position: relative;
+bottom: -145px;
+right: -37px;
+height: 3%;
+}
+.eth{
+position: relative;
+bottom: -110px;
+right: -65px;
+font-size: 25px;
+font-weight: 900;
+color:hsl(178, 100%, 50%);
+}
+.clock{
+    position: relative;
+    bottom: -82px;
+    right: -400px;
+    height: 3%;   
+}
+.left{
+    position: relative;
+    bottom: -46px;
+    right: -437px;  
+    font-size: 25px;
+    font-weight: 900;
+    color:hsl(215, 51%, 70%);
+    
+}
+.line{
+    position: absolute;
+    right: 43px;
+    width:520px;
+    position: absolute;
+    top: 870px;
+    height: 1px;
+    background-color:hsl(215, 51%, 70%);
+    bottom: 170px;
+    opacity: 30%;
+}
+.profile{
+    border: 4px white solid;
+    border-radius: 50%;
+    height:6%;
+    position:relative;
+    right:-40px;
+    bottom: -110px;
+}
+.limit{
+    position: relative;
+    bottom: -60px;
+    right: -137px;  
+    font-size: 25px;
+    font-weight: 500;
+    color:hsl(215, 51%, 70%);
+}
+.john{
+    position: relative;
+    bottom: -30px;
+    right: -269px;  
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+}
+.gold:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.john:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;  
+}
+.school:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    opacity: 30%;
+}
+.bullet{
+    height:100px;
+    width:85%;
+    position: relative;
+    z-index: 13;
+}
